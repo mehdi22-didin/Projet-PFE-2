@@ -1,0 +1,12 @@
+.chartbar{
+    margin: 20px;
+    padding: 20px;
+    -webkit-box-shadow: 5px 6px 20px 0px rgba(0,0,0,0.62); 
+     box-shadow: 5px 6px 20px 0px rgba(0,0,0,0.62);
+}
+.chartbarTitel{
+    margin-bottom: 10px;
+    margin-top: -5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.17em;
+}

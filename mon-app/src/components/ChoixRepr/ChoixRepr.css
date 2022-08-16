@@ -1,0 +1,39 @@
+.formeBox{
+    margin: 0px 20px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 5px 6px 20px 0px rgba(0,0,0,0.62); 
+     box-shadow: 5px 6px 20px 0px rgba(0,0,0,0.62);
+}
+.formeTitel{
+    font-weight: bold;
+    font-size: 30px;
+    background: -webkit-linear-gradient(#6852B8,#903A9A);
+    -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     cursor: pointer;
+     font-family: 'Source Sans Pro', sans-serif;
+     text-align: center;
+     margin-top: -20px;
+     margin-bottom: 50px;
+}
+.input{
+    height: 32px;
+    font-size: 15px;
+    outline: none;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.multiSelect{
+    margin-top: 20px;
+}
+.Date{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0px;
+}
+.option_graphe{
+    font-size: 15px;
+}

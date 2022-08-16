@@ -1,0 +1,49 @@
+.création_indic{
+    flex: 4;
+}
+.creatTitelIndic{
+    font-weight: bold;
+    font-size: 30px;
+    background: -webkit-linear-gradient(#6852B8,#903A9A);
+    -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     cursor: pointer;
+     font-family: 'Source Sans Pro', sans-serif;
+     text-align: center;
+     margin-top: -20px;
+}
+.forme{
+    margin: 0px 20px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 5px 6px 20px 0px rgba(0,0,0,0.62); 
+     box-shadow: 5px 6px 20px 0px rgba(0,0,0,0.62);
+}
+.buttonCreat{
+    margin: 20px 0px 20px 865px;
+    padding: 15px;
+    border-radius: 30px 30px 30px 30px;
+    border-width: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    background : linear-gradient(#6852B8,#903A9A);
+    cursor: pointer;
+}
+.option{
+    font-size: 15px;
+}
+.indicTitel5{
+    font-weight: bold;
+    font-size: 30px;
+    background: -webkit-linear-gradient(#6852B8,#903A9A);
+    -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     cursor: pointer;
+     font-family: 'Source Sans Pro', sans-serif;
+     margin-top: 20px;
+     margin-left: 400px;
+     margin-bottom: 20px;
+}

@@ -1,0 +1,12 @@
+.Affichagegraphe{
+    flex: 4;
+}
+.Représentation{
+    margin: 20px 20px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 5px 6px 20px 0px rgba(0,0,0,0.62); 
+     box-shadow: 5px 6px 20px 0px rgba(0,0,0,0.62);
+}
+

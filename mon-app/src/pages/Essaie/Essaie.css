@@ -1,0 +1,21 @@
+.essaie{
+    flex: 4;
+}
+.essaieTitel{
+    font-weight: bold;
+    font-size: 200px;
+    background: -webkit-linear-gradient(#6852B8,#903A9A);
+    -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     cursor: pointer;
+     font-family: 'Source Sans Pro', sans-serif;
+     text-align: center;
+}
+.essaieTable{
+    margin: 0px 20px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 5px 6px 20px 0px rgba(0,0,0,0.62); 
+     box-shadow: 5px 6px 20px 0px rgba(0,0,0,0.62);
+}

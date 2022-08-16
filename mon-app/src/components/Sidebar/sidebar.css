@@ -1,0 +1,51 @@
+.Sidebar {
+   flex: 1;
+   position: sticky;
+   top: 0;
+   z-index: 999;
+   height: 140vh;
+   width: 300px;
+   background: linear-gradient(#6852B8,#903A9A);  
+}
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+
+}
+.sidebarlist{
+  height: auto;
+  padding: 0;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.sidebarlist .row:hover{
+  cursor: pointer;
+  background-color: #5B2C6F;
+}
+.sidebarlist .row{
+  width: 100%;
+  height: 60px;
+  list-style-type: none;
+  margin: 0%;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.row #icon{
+  flex: 30%;
+  display: grid;
+  place-items: center;
+}
+.row #title{
+  flex: 70%;
+}
+

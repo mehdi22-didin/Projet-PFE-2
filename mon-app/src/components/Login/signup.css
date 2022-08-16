@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.countainer{
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(#6852B8,#903A9A);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 4;
+}
+.app-wrapper{
+    background-color: #ffff;
+    min-width: 350px;
+    min-height: 450px;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.title-signeup{
+    background: -webkit-linear-gradient(#6852B8,#903A9A);
+    -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     text-align: center;
+     margin: 30px 0px 40px 0px;
+     font-size: 30px;
+}
+.utilisateur_name, .MDP{
+    margin: 20px;
+    color: #969292;
+    font-size: 16 px;
+}
+.MDP{
+    margin-bottom: 40px;
+}
+.input{
+    height: 32px;
+    font-size: 15px;
+    outline: none;
+    width: 100%;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: 2px solid black;
+    margin-bottom: 10px;
+}
+.submit{
+    display: flex;
+    text-transform: uppercase;
+    font-size: 20px;
+    border-radius: 25px;
+    color: white;
+    padding: 10px 60px;
+    background: linear-gradient(#6852B8,#903A9A);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    margin: auto;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.1s;
+}

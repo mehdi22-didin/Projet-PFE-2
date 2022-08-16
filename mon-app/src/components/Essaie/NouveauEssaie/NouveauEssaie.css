@@ -1,0 +1,24 @@
+.formeBox{
+    margin: 20px 20px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 5px 6px 20px 0px rgba(0,0,0,0.62); 
+     box-shadow: 5px 6px 20px 0px rgba(0,0,0,0.62);
+}
+.utilisateur_name{
+    margin: 20px;
+    color: #969292;
+    font-size: 16 px;
+}
+.input{
+    height: 32px;
+    font-size: 15px;
+    outline: none;
+    width: 100%;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: 2px solid black;
+    margin-bottom: 10px;
+}
