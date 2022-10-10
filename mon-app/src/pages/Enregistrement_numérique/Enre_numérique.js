@@ -44,6 +44,22 @@ function Enre_numérique() {
   return (
     <div className='création_indic'>
         <h1 className='indicTitel5'>Importer un fichier CSV</h1>
+        <form id='csv-form' className='button_enreg'>
+          <input
+          type={'file'}
+          accept='.csv'
+          id='csvfile'
+          onChange={(e) =>{setCsvFile(e.target.files[0])}}
+          className='buttonIndic'
+          ref={ref}>
+          </input>
+          
+          <button
+          onClick={(e) =>{e.preventDefault()
+          if(csvfile)submit()}}
+          className='buttonIndic'>Visualiser </button>
+
+        </form>
         <DataGrid
         rows={csvArray}
         columns={indicColumns}
@@ -53,7 +69,7 @@ function Enre_numérique() {
         disableSelectionOnClick
         components={{ Toolbar: GridToolbar}}
         className='indic_table'/> 
-        <form id='csv-form' className='button'>
+        {/* <form id='csv-form' className='button'>
           <input
           type={'file'}
           accept='.csv'
@@ -69,7 +85,7 @@ function Enre_numérique() {
           if(csvfile)submit()}}
           className='buttonIndic'>Valider Importation </button>
 
-        </form>
+        </form> */}
     </div>
   )
 }

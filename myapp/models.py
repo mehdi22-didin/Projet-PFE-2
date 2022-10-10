@@ -19,9 +19,9 @@ class Indicateur(models.Model):
     def code_couleur(self):
         if (self.name == 'débit_gaz'):
             if (self.valeur < 5000 and self.valeur > 2000):
-                code_couleur = '#fffff'
+                code_couleur = 'Rouge'
             else :
-                code_couleur = '#00000'
+                code_couleur = 'vert'
             return code_couleur
                 
             

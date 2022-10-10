@@ -13,17 +13,19 @@ import * as BiIcons from 'react-icons/bi';
 export const SideBarData3 = [
     {
         title : 'Indicateur',
-        path : '/indicateur',
+        path : '/indicateur/SaisieManuelle',
         icon : <AiIcons.AiFillHome />,
         iconClosed : <RiIcons.RiArrowDownSFill />,
         iconOpened : <RiIcons.RiArrowUpSFill />,
         subNav: [
+        
             {
-            title : 'Créer Indicateur',
+            title : 'Saisir Mesure',
             path : '/indicateur/CreatIndic',
             icon : <IoIcons.IoIosPaper />,},
+
             {
-            title : 'Saise Manuelle',
+            title : 'Historique Saisie Manuelle',
             path : '/indicateur/SaisieManuelle',
             icon : <IoIcons.IoIosPaper />,
             },
@@ -38,19 +40,27 @@ export const SideBarData3 = [
         title : 'Dashbord',
         icon: <MdIcons.MdOutlineDashboard />,
         path : '/dashbord',
+        iconClosed : <RiIcons.RiArrowDownSFill />,
+        iconOpened : <RiIcons.RiArrowUpSFill />,
+        subNav: [
+            {
+            title : 'Visualisation indicateur',
+            path : '/AffichageGraphe',
+            icon : <IoIcons.IoIosPaper />,},
+        ]
     },
+    // {
+    //     title : 'Essaie',
+    //     icon: <HiIcons.HiDocumentReport />,
+    //     path : '/essaie',
+    // },
     {
-        title : 'Essaie',
-        icon: <HiIcons.HiDocumentReport />,
-        path : '/essaie',
-    },
-    {
-        title : 'Utilisateurs',
+        title : 'Profil',
         icon: <FiIcons.FiUsers />,
-        path : '/utilisateurs',
+        path : '/profile',
     },
     {
-        title : 'Login',
+        title : 'Déconnecter',
         icon: <BiIcons.BiLogIn />,
         path : '/Login',
     },

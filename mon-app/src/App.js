@@ -15,6 +15,7 @@ import Side_bar from "./components/sidebare2/side_bar";
 import Sidebar3 from "./components/sidebar3/Sidebar3";
 import CréerIndicateur from "./pages/Cration_indicateur/CréerIndicateur";
 import Enre_numérique from "./pages/Enregistrement_numérique/Enre_numérique";
+import Profilepage from "./pages/profilePage/Profilepage";
 
 
 
@@ -38,7 +39,8 @@ function App(){
            <Route path="/indicateur/CreatIndic" element={<CréerIndicateur />} />
            <Route path="/indicateur/EnregistrementNum" element={<Enre_numérique />} />
            <Route path="/AffichageGraphe" element={<Affichagegraphe />} />
-
+           {/* <Route path="/indicateur/créer_nouveau_indic" element={<créerIndic />} /> */}
+           <Route path="/profile" element={<Profilepage />} />
         </Routes>
         </div>
      </Router>

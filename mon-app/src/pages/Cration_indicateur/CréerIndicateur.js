@@ -41,7 +41,7 @@ function CréerIndicateur() {
   return (
     <div>
          <div className="forme">
-            <h1 className="creatTitelIndic">Création d'un nouveau Indicateur</h1>
+            <h1 className="creatTitelIndic">Saisie des mesures des indicateurs</h1>
             <form className='newindic'>
             <div className='utilisateur_name'>
               <label className='Label'> Nom d'indicateur</label>
